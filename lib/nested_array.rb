@@ -22,8 +22,8 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  array=[ORGANIC_PRODUCE.sort, CONVENTIONAL_PRODUCE.sort]
-  array
+   produce_storage_room = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
+  p produce_storage_room
 end
 
 def matrix_lookup(matrix, row, column)
